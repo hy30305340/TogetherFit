@@ -1,3 +1,15 @@
+/***
+This file works for the online chatting function. Just like the WhatsApp or WeChat.
+First, it read the data from my online dataset. Then it checks your friends list and shows them up. 
+       If you don't have friends, it will ask you to add friends at first.
+Second, the page contains your friens' protrait and name(from the database). 
+        You just click on it. Then you will be lead to the chat page.
+Third, just input your message and send it. Your friend will get informed. If he/she click on it, he/she will open the chat page. 
+       Both you and your friend's phone screen can find the measage. Of course, you can manage the chat history
+
+Since the project's database is built on Firebase(A Google's online database service), we can use "Listener" method to check the modification of the database.
+Actually, this part is focus on the store and retrieve of the data. But the important thing is build the right and efficient database.
+***/
 package com.example.heem.togetherfit;
 
 import android.content.Intent;
